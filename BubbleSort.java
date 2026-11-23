@@ -45,7 +45,6 @@ public class BubbleSort {
         checkSort(new int[]{1, 2, 3, 4});
         checkSort(new int[]{4, 3, 2, 1});
 
-        // Несколько запусков перед измерением для прогрева JVM.
         for (int i = 0; i < 5; i++) {
             bubbleSort(createArray(1000));
         }
